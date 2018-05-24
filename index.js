@@ -1,7 +1,10 @@
-import jsf from 'json-schema-faker';
+const jsf = require("json-schema-faker");
 
-export function fake(schema, refs) {
-    return jsf(schema, refs);
+function fake(schema, refs) {
+  return jsf(schema, refs);
 }
 
-export default fake;
+module.exports = {
+  default: fake,
+  fake: fake
+};
