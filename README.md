@@ -45,6 +45,8 @@ const schema: JsonSchema = {
 console.log(fake(schema));
 ```
 
+more usage: https://github.com/json-schema-faker/json-schema-faker#supported-keywords
+
 ## License
 
 MIT
