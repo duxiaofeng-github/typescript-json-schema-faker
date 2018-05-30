@@ -1,7 +1,8 @@
 {
   "name": "typescript-json-schema-faker",
   "version": "0.0.5",
-  "description": "A random data generator for typescript base on https://github.com/json-schema-faker/json-schema-faker",
+  "description":
+    "A random data generator for typescript base on https://github.com/json-schema-faker/json-schema-faker",
   "main": "index.js",
   "dependencies": {
     "json-schema-faker": "^0.4.6"
@@ -13,17 +14,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duxiaofeng-github/typescript-json-schema-faker.git"
+    "url":
+      "git+https://github.com/duxiaofeng-github/typescript-json-schema-faker.git"
   },
   "keywords": [
     "typescript",
     "json-schema",
-    "json-schema-faker"
+    "json-schema-faker",
+    "mock",
+    "mock data"
   ],
   "author": "duxiaofeng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/duxiaofeng-github/typescript-json-schema-faker/issues"
+    "url":
+      "https://github.com/duxiaofeng-github/typescript-json-schema-faker/issues"
   },
-  "homepage": "https://github.com/duxiaofeng-github/typescript-json-schema-faker#readme"
+  "homepage":
+    "https://github.com/duxiaofeng-github/typescript-json-schema-faker#readme"
 }
