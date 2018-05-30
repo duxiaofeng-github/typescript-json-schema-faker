@@ -42,7 +42,8 @@ interface IPropertySchema {
     | IObjectSchema
     | IArraySchema
     | INumberSchema
-    | IStringSchema;
+    | IStringSchema
+    | IReferenceSchema;
 }
 
 interface IPatternPropertiesSchema {
@@ -98,8 +99,7 @@ export interface JsonSchema
     IObjectSchema,
     IArraySchema,
     INumberSchema,
-    IStringSchema,
-    IReferenceSchema {
+    IStringSchema {
   [key: string]: any;
   title?: string;
   description?: string;
