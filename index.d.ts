@@ -30,7 +30,7 @@ interface INumberSchema extends IGeneratorSchema, ICommonSchema {
 }
 
 interface IArraySchema extends IGeneratorSchema, ICommonSchema {
-  items?: IObjectSchema | IObjectSchema[];
+  items?: IObjectSchema | IObjectSchema[] | IReferenceSchema;
   additionalItems?: boolean | IObjectSchema;
   minItems?: number;
   maxItems?: number;
