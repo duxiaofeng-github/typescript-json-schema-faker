@@ -4,19 +4,19 @@ A random data generator for typescript based on https://github.com/json-schema-f
 
 ## Install
 
-```
+```bash
 npm install typescript-json-schema-faker -D
 ```
 
 or
 
-```
+```bash
 yarn add typescript-json-schema-faker -D
 ```
 
 ## Usage
 
-```
+```typescript
 import fake, { JsonSchema } from "typescript-json-schema-faker";
 
 const schema: JsonSchema = {
