@@ -2,7 +2,7 @@
 
 A random data generator for typescript based on https://github.com/json-schema-faker/json-schema-faker
 
-## Install
+## Installation
 
 ```bash
 npm install typescript-json-schema-faker -D
