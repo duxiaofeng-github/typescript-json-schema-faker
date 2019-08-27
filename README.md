@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/duxiaofeng-github/typescript-json-schema-faker.svg?branch=master)](https://travis-ci.com/duxiaofeng-github/typescript-json-schema-faker)
 
+[![npm version](https://badge.fury.io/js/typescript-json-schema-faker.svg)](//npmjs.com/package/typescript-json-schema-faker)
+
 A random data generator for typescript based on https://github.com/json-schema-faker/json-schema-faker
 
 ## Installation
