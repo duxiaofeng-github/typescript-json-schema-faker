@@ -1,6 +1,6 @@
 {
   "name": "typescript-json-schema-faker",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A random data generator for typescript base on https://github.com/json-schema-faker/json-schema-faker",
   "repository": {
     "type": "git",
