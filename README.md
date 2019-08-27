@@ -1,5 +1,7 @@
 # typescript-json-schema-faker
 
+[![Build Status](https://travis-ci.com/duxiaofeng-github/typescript-json-schema-faker.svg?branch=master)](https://travis-ci.com/duxiaofeng-github/typescript-json-schema-faker)
+
 A random data generator for typescript based on https://github.com/json-schema-faker/json-schema-faker
 
 ## Installation
