@@ -1,3 +1,5 @@
+import jsf from "json-schema-faker";
+
 /**
  * JSF basic schema extension
  */
@@ -84,10 +86,6 @@ interface IStringMap {
   [format: string]: string;
 }
 
-interface TypescriptJsonSchemaFakerStatic {
-  (schema: JsonSchema, refs?: any);
-}
-
 /**
  * JSON Schema TypeScript interface.
  *
@@ -117,5 +115,12 @@ export type ISchemaType =
   | "array"
   | "boolean";
 
-export function fake<T>(schema: JsonSchema, refs?: JsonSchema[]): T;
-export default fake;
+export function fake(schema: JsonSchema, refs?: JsonSchema[]) {
+  return jsf.generate(schema, refs);
+}
+
+export function asyncFake(schema: JsonSchema, refs?: JsonSchema[]) {
+  return jsf.resolve(schema, refs);
+}
+
+export default { fake, asyncFake };

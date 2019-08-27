@@ -2,15 +2,6 @@
   "name": "typescript-json-schema-faker",
   "version": "0.0.8",
   "description": "A random data generator for typescript base on https://github.com/json-schema-faker/json-schema-faker",
-  "main": "index.js",
-  "dependencies": {
-    "json-schema-faker": "^0.4.6"
-  },
-  "devDependencies": {},
-  "typings": "./moment.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/duxiaofeng-github/typescript-json-schema-faker.git"
@@ -27,5 +18,24 @@
   "bugs": {
     "url": "https://github.com/duxiaofeng-github/typescript-json-schema-faker/issues"
   },
-  "homepage": "https://github.com/duxiaofeng-github/typescript-json-schema-faker#readme"
+  "homepage": "https://github.com/duxiaofeng-github/typescript-json-schema-faker#readme",
+  "main": "dist/index.js",
+  "module": "dist/index.module.js",
+  "umd:main": "dist/index.umd.js",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "rm -rf dist && microbundle build --raw",
+    "test": "jest"
+  },
+  "dependencies": {
+    "json-schema-faker": "^0.5.0-rc17"
+  },
+  "devDependencies": {
+    "microbundle": "^0.11.0",
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.3"
+  }
 }

@@ -1,0 +1,2 @@
+!function(e,n){"object"==typeof exports&&"undefined"!=typeof module?n(exports,require("json-schema-faker")):"function"==typeof define&&define.amd?define(["exports","json-schema-faker"],n):n(e.typescriptJsonSchemaFaker={},e.jsf)}(this,function(e,n){function t(e,t){return n.generate(e,t)}function f(e,t){return n.resolve(e,t)}n=n&&n.hasOwnProperty("default")?n.default:n;var a={fake:t,asyncFake:f};e.fake=t,e.asyncFake=f,e.default=a});
+//# sourceMappingURL=index.umd.js.map
